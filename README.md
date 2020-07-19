@@ -10,5 +10,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/colors
 cp vim-config/monokai.vim ~/.vim/colors/
 cp vim-config/.vimrc ~/.vimrc
+
+# Clean up
+rm -rf vim-config
 ```
 Open vim and enjoy.
